@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Funky Etch-a-sketch</title>
+    
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="etch.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="etch.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+    <header class="container">
+        <h3> jQuery Etch-a-sketch </h3>
+    </header>
+    
+    <div class="container">
+        <div class="control-panel">
+            <ul>
+                <a href="#"><li id="default" class="brush-mode selected-brush"> Default </li></a>
+                <a href="#"><li id="eraser" class="brush-mode"> Eraser </li></a>
+                <a href="#"><li id="darken" class="brush-mode"> Darken </li></a>
+                <a href="#"><li id="lighten" class="brush-mode"> Fade </li></a>
+                <a href="#"><li id="reset"> Reset </li></a>
+                <a href="#"><li id="resize"> Resize </li></a>
+                
+            </ul>
+            <ul class="color-picker">
+                <a href="#" ><li id="black" class="color-button">  </li></a>
+                <a href="#" ><li id="red" class="color-button">  </li></a>
+                <a href="#" ><li id="blue" class="color-button"> </li></a>
+                <a href="#" ><li id="green" class="color-button"> </li></a>
+                <a href="#" ><li id="purple" class="color-button"> </li></a>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="canvas"> <!-- The whole canvas -->
+            
+        </div>
+    </div>
+    
+    <footer>
+        <p> Created by James M.S. Kelsey, May 2015 </p>
+    </footer>
+
+    </div>
+    <div class="block-template"> <!-- one block of the canvas -->
+    </div>
+    <div class="row-template"> <!-- one div of blocks of the canvas -->
+</body>
+</html>
